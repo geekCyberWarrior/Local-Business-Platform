@@ -82,17 +82,6 @@ WSGI_APPLICATION = 'localBusinessPlatform.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'localbiz',
-    #     'USER': 'admin',
-    #     'PASSWORD': '12345678',
-    #     'HOST': 'localbiz.c4efy5vckv4k.us-east-2.rds.amazonaws.com',
-    #     'PORT': '3306',
-    #     'OPTIONS': {
-    #         'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-    #     },
-    # },
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
