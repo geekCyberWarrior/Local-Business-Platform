@@ -1,0 +1,15 @@
+# VS CODE CONFIGS
+.vscode/
+
+# DATABASE
+db.sqlite3
+
+# CACHE
+**/__pycache__/
+
+# NODE MODULES
+**/node_modules/
+
+# JS BUILD
+frontend/static/frontend/main.js
+frontend/static/frontend/main.js.LICENSE.txt
